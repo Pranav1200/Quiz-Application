@@ -1,12 +1,12 @@
 var mongoose = require("mongoose");
 const QuestionSchema = mongoose.Schema({
-  question: {
+  question: { // question schema
     type: String,
     require: true
   },
   options: [
     {
-      optionvalue: {
+      optionvalue: { 
         type: String,
         require: true
       },
